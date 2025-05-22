@@ -16,7 +16,7 @@ import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-      <BrowserRouter basename="/CACS">
+      <BrowserRouter basename="/CACS/">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index            element={<Home />} />
