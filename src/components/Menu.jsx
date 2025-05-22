@@ -2,7 +2,6 @@
 
 
 import React, { useState } from "react";
-import cacsLogo from '/public/cacs-logo.svg'
 import { Link } from "react-router-dom";
 import { INSTAGRAM_ACCOUNT } from "@/constants/urls";
 
@@ -64,7 +63,7 @@ export default function Menu() {
         <div className="max-w-6xl mx-auto px-4 flex h-16 items-center justify-between">
           {/* Logo */}
           <a href="/" className="flex-shrink-0">
-            <img src={cacsLogo} alt="Cacs" className="h-10 w-10 rounded-full"/>
+            <img alt="Cacs" className="h-10 w-10 rounded-full"/>
           </a>
           {/* Links desktop */}
           <ul className="hidden md:flex gap-8 text-sm font-medium items-center flex-1 justify-center">
